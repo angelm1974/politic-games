@@ -18,7 +18,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: '18.13.0'
+          node-version: 'latest'
 
       - uses: actions/checkout@v3
         with:
